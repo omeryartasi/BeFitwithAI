@@ -518,7 +518,7 @@ public class Profile_page extends AppCompatActivity {
         RequestBody body = RequestBody.create(mediaType, json.toString());
         Request request = new Request.Builder()
                 .url("https://openrouter.ai/api/v1/chat/completions")
-                .addHeader("Authorization", "Bearer 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")
+                .addHeader("Authorization", "Bearer sk-or-v1-eb************")
                 .addHeader("Content-Type", "application/json")
                 .post(body)
                 .build();
