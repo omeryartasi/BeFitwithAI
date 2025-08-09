@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.FitMyBody" parent="Theme.Material3.DayNight.NoActionBar">
+    </style>
+
+    <style name="Theme.FitMyBody" parent="Theme.MaterialComponents.DayNight.NoActionBar" >
+        <item name="android:statusBarColor">@color/google_light_gray</item>
+    </style>
+</resources>

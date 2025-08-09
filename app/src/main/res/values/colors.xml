@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#F5F5F5</color>
+    <color name="purple_500">#F5F5F5</color>
+    <color name="purple_700">#F5F5F5</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#FFFF00</color>
+
+    <color name="purple_dark">#673AB7</color>
+    <color name="purple_light_bg">#D1C4E9</color>
+    <color name="light_gray">#E0E0E0</color>
+    <color name="text_gray">#888888</color>
+    <color name="facebook_blue">#3B5998</color>
+    <color name="google_light_gray">#F5F5F5</color>
+    <color name="border_gray">#CCCCCC</color>
+    <color name="grey_500">#808080</color>
+
+
+    <color name="arka_plan_acik_gri">#F0F2F5</color>
+    <color name="aktivite_karti_kirmizi">#F8B1AB</color>
+    <color name="adim_karti_turkuaz">#8CD7D1</color>
+    <color name="kalori_karti_mavi">#9AC5F1</color>
+    <color name="benc_press_arkaplan">#000033</color>
+
+    <style name="AppTheme.Transparent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+    
+</resources>

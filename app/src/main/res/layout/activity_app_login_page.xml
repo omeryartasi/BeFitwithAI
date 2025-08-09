@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/arkaplann"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AppLoginPage">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/glass_card_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="64dp"
+        android:alpha="0.9"
+        android:layout_marginBottom="64dp"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardCornerRadius="100dp"
+        android:outlineAmbientShadowColor="@android:color/transparent"
+        app:cardElevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="0.6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:outlineSpotShadowColor="@android:color/transparent"
+            android:background="@android:color/transparent"
+            android:padding="24dp"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/camera_icon"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/cameraa"
+                android:alpha="0.8"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="32dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@drawable/rounded_input_bg"
+                android:alpha="0.6"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:layout_marginBottom="16dp">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/people"
+                    app:tint="#FFFFFF"
+                    android:layout_marginEnd="8dp"/>
+
+                <EditText
+                    android:id="@+id/edit_text_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Username"
+                    android:textColorHint="#CCCCCC"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:inputType="text"
+                    android:background="@android:color/transparent"
+                    android:paddingVertical="12dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@drawable/rounded_input_bg"
+                android:alpha="0.6"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:layout_marginBottom="16dp">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/lock"
+                    app:tint="#FFFFFF"
+                    android:layout_marginEnd="8dp"/>
+
+                <EditText
+                    android:id="@+id/edit_text_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="********"
+                    android:textColorHint="#CCCCCC"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:inputType="textPassword"
+                    android:background="@android:color/transparent"
+                    android:paddingVertical="12dp"/>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:layout_marginBottom="32dp">
+
+                <CheckBox
+                    android:id="@+id/checkbox_remember_me"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Remember me"
+                    android:textColor="#E0E0E0"
+                    android:buttonTint="#FFFFFF"
+                    android:textSize="14sp"
+                    android:layout_alignParentStart="true"/>
+
+                <TextView
+                    android:id="@+id/text_view_forgot_password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Forgot Password?"
+                    android:textColor="#E0E0E0"
+                    android:textSize="14sp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"/>
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/button_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LOGIN"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:background="@drawable/rounded_transparent_background"
+                android:paddingVertical="16dp"
+                android:alpha="0.9"
+                app:backgroundTint="@null"/>
+
+            <TextView
+                android:id="@+id/CreateAccount"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#E0E0E0"
+                android:gravity="center"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:text="Create a Account"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
